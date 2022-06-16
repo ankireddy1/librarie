@@ -5,7 +5,7 @@ def newGit(repo)
 }
 def Maven()
 {
-  sh 'mvn pakage'
+  sh 'mvn package'
 }
 def Deploy(jobname,ip,app)
 {
