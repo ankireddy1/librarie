@@ -9,7 +9,7 @@ def Maven()
 }
 def Deploy(jobname,ip,app)
 {
-  "sh scp /home/ubuntu/.jenkins/workspace/${jobname}/webapp/target/webapp.war ubuntu@${ip}:/var/lib/tomcat9/webapps/${app}.war"
+  "sh scp /home/ubuntu/.jenkins/workspace/${jobname}/webapp/target/webapp.war ubuntu@${ip}:/var/lib/tomcat9/webapps/${app}"
 }
 def Test()
 {
